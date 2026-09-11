@@ -1,0 +1,11 @@
+{
+  "project": "libelf",
+  "version": "0.194",
+  "upstream": "https://sourceware.org/elfutils/",
+  "upstream_tag": "elfutils-0.194",
+  "source_sha512": "5d00502f61b92643bf61dc61da4ddded36c423466388d992bcd388c5208761b8ed9db1a01492c085cd0984eef30c08f895a8e307e78e0df8df40b56ae35b78a5",
+  "libraries": [
+    "libelf.so.1"
+  ],
+  "validation": "libelf ELF parsing smoke plus offline relocation; full elfutils utilities and tests are outside this libelf-only build"
+}
