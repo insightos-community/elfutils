@@ -31,3 +31,7 @@ See the CONTRIBUTING file for how to propose patches to the code.
 See the NOTES files for some design decisions and notes.
 
 See the SECURITY file for defining and handling security-sensitive bugs.
+
+Reproducible platform builds
+---------------------------
+See README.build.md for glibc, musl and macOS scripts, commands, pinned sources and support boundaries.
